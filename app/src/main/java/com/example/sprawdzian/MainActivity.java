@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText view_b = findViewById(R.id.input_b);
                 EditText view_c = findViewById(R.id.input_c);
                 EditText result = findViewById(R.id.result);
+                result.setText("");
 
                 double a = Double.parseDouble(view_a.getText().toString());
                 double b = Double.parseDouble(view_b.getText().toString());
